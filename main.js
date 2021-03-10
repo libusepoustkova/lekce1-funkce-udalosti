@@ -1,9 +1,7 @@
 // tady je místo pro náš program
 
-document.querySelector("#vysledek").innerHTML = secti(4, 5);
-
 let ctverecek = document.querySelector(".ctverecek")
-
+let vysledek = document.querySelector("#vysledek")
 /**
  * Sečte dvě čísla na vstupu a vrátí výsledek
  *
@@ -24,8 +22,15 @@ function upozorni() {
 
 
 /**
- * Obarvi na zelenou.
+* Obarvi na zelenou.
 */
 function obarvi() {
   ctverecek.style.backgroundColor = 'green';
+}
+
+/**
+* Zobraz vysledek.
+*/
+function zobraz_vysledek() {  
+  vysledek.innerHTML = secti(4, 5);
 }
