@@ -2,6 +2,8 @@
 
 document.querySelector("#vysledek").innerHTML = secti(4, 5);
 
+let ctverecek = document.querySelector(".ctverecek")
+
 /**
  * Sečte dvě čísla na vstupu a vrátí výsledek
  *
@@ -18,4 +20,12 @@ function secti(a, b) {
  */
 function upozorni() {
   alert("Gratulace, právě jsi spustila tuto funkci!");
+}
+
+
+/**
+ * Obarvi na zelenou.
+*/
+function obarvi() {
+  ctverecek.style.backgroundColor = 'green';
 }
