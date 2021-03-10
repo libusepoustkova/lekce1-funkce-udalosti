@@ -26,9 +26,11 @@ function upozorni() {
 
 /**
 * Obarvi na zelenou.
+* 
+* @param {string} element 
 */
-function obarvi() {
-  ctverecek.style.backgroundColor = 'green';
+function obarvi(element) {
+  document.querySelector(element).style.backgroundColor = 'green';
 }
 
 /**
