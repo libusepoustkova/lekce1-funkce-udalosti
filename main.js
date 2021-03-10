@@ -17,6 +17,9 @@ function secti(a, b) {
  * Upozorní uživatele při spuštění.
  */
 function upozorni() {
+  ctverecek.innerHTML = "Gratulace, právě jsi spustila tuto funkci!";
+  ctverecek.style.lineHeight = "30px";
+  console.log("Gratulace, právě jsi spustila tuto funkci!");
   alert("Gratulace, právě jsi spustila tuto funkci!");
 }
 
